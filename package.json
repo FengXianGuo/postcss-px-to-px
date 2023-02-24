@@ -1,15 +1,23 @@
 {
-  "name": "@dt/postcss-px-to-px",
+  "name": "postcss-px-to-px-dt",
   "version": "0.0.1",
   "description": "A CSS post-processor that converts px to px",
-  "keywords": ["postcss", "css", "postcss-plugin", "postcss-px-to-px"],
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "postcss-px-to-px"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage && eslint ."
   },
   "author": "FengXianGuo 824042624@qq.com",
   "license": "MIT",
-  "repository": "https://github.com/FengXianGuo/postcss-px-to-px",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FengXianGuo/postcss-px-to-px.git"
+  },
   "engines": {
     "node": ">=12.0.0"
   },
@@ -34,7 +42,10 @@
       "node": true,
       "es6": true
     },
-    "extends": ["eslint:recommended", "plugin:jest/recommended"],
+    "extends": [
+      "eslint:recommended",
+      "plugin:jest/recommended"
+    ],
     "rules": {
       "jest/expect-expect": "off"
     }
@@ -45,5 +56,9 @@
         "statements": 100
       }
     }
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/FengXianGuo/postcss-px-to-px/issues"
+  },
+  "homepage": "https://github.com/FengXianGuo/postcss-px-to-px#readme"
 }
