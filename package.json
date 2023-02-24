@@ -1,6 +1,6 @@
 {
-  "name": "postcss-px-to-px-dt-dt",
-  "version": "0.0.2",
+  "name": "postcss-px-to-px-dt",
+  "version": "0.0.3",
   "description": "A CSS post-processor that converts px to px",
   "keywords": [
     "postcss",
