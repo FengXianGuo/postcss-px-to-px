@@ -1,8 +1,6 @@
 # postcss-px-to-px
 
-[PostCSS] plugin to convert `px` values to `px` values.
-
-[PostCSS]: https://github.com/postcss/postcss
+[PostCSS] plugin to convert `px` values to `px` values, like 750px(local) to 375px(device).
 
 ```css
 .foo {
@@ -36,10 +34,27 @@ and set this plugin in settings.
 ```diff
 module.exports = {
   plugins: [
-+   require('${pluginName}'),
++   require('postcss-px-to-px'),
+    require('autoprefixer')
+  ]
+}
+```
+## Options
+
+You can set `viewportWidth` is real viewport. The default `viewportWidth` is 375.
+
+Yon can set `devViewportWidth` is dev environment viewport. The default `devViewportWidth` is 750.
+
+```diff
+module.exports = {
+  plugins: [
++   require('postcss-px-to-px',{viewportWidth:375,devViewportWidth:750}),
     require('autoprefixer')
   ]
 }
 ```
 
-[official docs]: https://github.com/postcss/postcss#usage
+
+
+
+
