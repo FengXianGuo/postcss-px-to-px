@@ -1,5 +1,5 @@
 {
-  "name": "postcss-px-to-px",
+  "name": "@dt/postcss-px-to-px",
   "version": "0.0.1",
   "description": "A CSS post-processor that converts px to px",
   "keywords": ["postcss", "css", "postcss-plugin", "postcss-px-to-px"],
