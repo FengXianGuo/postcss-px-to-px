@@ -1,12 +1,12 @@
 {
-  "name": "postcss-px-to-px-dt",
-  "version": "0.0.1",
+  "name": "postcss-px-to-px-dt-dt",
+  "version": "0.0.2",
   "description": "A CSS post-processor that converts px to px",
   "keywords": [
     "postcss",
     "css",
     "postcss-plugin",
-    "postcss-px-to-px"
+    "postcss-px-to-px-dt"
   ],
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FengXianGuo/postcss-px-to-px.git"
+    "url": "git+https://github.com/FengXianGuo/postcss-px-to-px-dt.git"
   },
   "engines": {
     "node": ">=12.0.0"
@@ -58,7 +58,7 @@
     }
   },
   "bugs": {
-    "url": "https://github.com/FengXianGuo/postcss-px-to-px/issues"
+    "url": "https://github.com/FengXianGuo/postcss-px-to-px-dt/issues"
   },
-  "homepage": "https://github.com/FengXianGuo/postcss-px-to-px#readme"
+  "homepage": "https://github.com/FengXianGuo/postcss-px-to-px-dt#readme"
 }

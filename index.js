@@ -11,7 +11,7 @@ module.exports = (options = {}) => {
   const opts = Object.assign({}, defaults, options);
   const { unitToConvert, viewportWidth, devViewportWidth, unitPrecision } = opts;
   return {
-    postcssPlugin: 'postcss-px-to-px',
+    postcssPlugin: 'postcss-px-to-px-dt',
     Declaration (decl) {
       decl.value = decl.value.replace(
         /"[^"]+"|'[^']+'|url\([^)]+\)|(-?\d*\.?\d+)px/g,

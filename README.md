@@ -1,4 +1,4 @@
-# postcss-px-to-px
+# postcss-px-to-px-dt
 
 [PostCSS] plugin to convert `px` values to `px` values, like 750px(local) to 375px(device).
 
@@ -34,7 +34,7 @@ and set this plugin in settings.
 ```diff
 module.exports = {
   plugins: [
-+   require('postcss-px-to-px'),
++   require('postcss-px-to-px-dt'),
     require('autoprefixer')
   ]
 }
@@ -48,7 +48,7 @@ Yon can set `devViewportWidth` is dev environment viewport. The default `devView
 ```diff
 module.exports = {
   plugins: [
-+   require('postcss-px-to-px',{viewportWidth:375,devViewportWidth:750}),
++   require('postcss-px-to-px-dt',{viewportWidth:375,devViewportWidth:750}),
     require('autoprefixer')
   ]
 }
